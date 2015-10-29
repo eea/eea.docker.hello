@@ -23,7 +23,7 @@ cache servers, apache/ngnix, etc
       - "1936:1936"
 
     webapp:
-      image: hello
+      image: eeacms/hello
 
 
 ### Scale and test

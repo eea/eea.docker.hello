@@ -7,4 +7,4 @@ haproxy:
   - "1936:1936"
 
 webapp:
-  image: hello
+  image: eeacms/hello
