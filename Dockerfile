@@ -10,4 +10,4 @@ RUN chmod +x /www/hello.py
 
 WORKDIR /www
 
-CMD ["./hello.py"]
+CMD ["python", "hello.py"]
