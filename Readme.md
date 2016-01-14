@@ -33,3 +33,12 @@ cache servers, apache/ngnix, etc
 Now go to: http://localhost
 
 Check backends health at: http://admin:admin@localhost:1936
+
+### Supported environment variables
+
+You can override default running port inside container via
+
+  * `PORT` Serve on this port instead of 80 (e.g. 8080)
+
+
+    $ docker run --rm -e PORT=8080 -p 80:8080 eeacms/hello
